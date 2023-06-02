@@ -18,19 +18,22 @@ let multipleArray = [3.4, true, "Hello", ["apple", "banana", "kiwi"]];
 // console.log(multipleArray[3][1])
 // console.log(multipleArray.indexOf(["apple", "banana", "kiwi"]))
 
+// Examples of forEach loop
 multipleArray.forEach(el => {
     if (Array.isArray(el)) {
         console.log(el.indexOf('kiwi'))
     }
 })
 
+// FOR EACH loop
+multipleArray.forEach(el => console.log(el))
+
+
 // FOR LOOP
 for (let i = 0; i < numberArray.length; i++) {
     numberArray[i] *= 2
 }
 
-// FOR EACH loop
-// multipleArray.forEach(el => console.log(el))
 
 // Objects
 
