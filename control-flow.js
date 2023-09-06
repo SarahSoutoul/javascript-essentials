@@ -9,8 +9,7 @@ if (cake === "chocolate") {
 }
 
 // TERNARY STATEMENT
-cake === "chocolate" ? console.log("Delicious") : console.log("ugh");
-
+cake === "chocolate" ? console.log("Delicious!") : cake == "red velvet" ? console.log("Ugh") : console.log("No cake then.") 
 
 // CHALLENGE #1
 const num = 50;
@@ -24,3 +23,13 @@ if (num >= 11) {
 } else {
     console.log("Medium")
 }
+
+// TERNARY STATEMENT
+function example() {
+  return num >=11 ? console.log("High")
+    : num < 3 ? console.log("Low")
+    : num == 7 ?  console.log("Exact")
+    : console.log("Medium");
+}
+
+example()
